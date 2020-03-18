@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "venamod:blocks/baobab_sapling",
+    "particle": "venamod:blocks/baobab_sapling"
+  }
+}

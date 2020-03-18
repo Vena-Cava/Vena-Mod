@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "venamod:mangrovewood"
+    },
+    "facing=south": {
+      "model": "venamod:mangrovewood"
+    },
+    "facing=north": {
+      "model": "venamod:mangrovewood"
+    },
+    "facing=east": {
+      "model": "venamod:mangrovewood",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "venamod:mangrovewood",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "venamod:mangrovewood",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "venamod:mangrovewood",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

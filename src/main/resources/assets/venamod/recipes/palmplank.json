@@ -1,0 +1,16 @@
+{
+  "group": "venamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "venamod:palmwood"
+    }
+  },
+  "result": {
+    "item": "venamod:baobabplanks",
+    "count": 4
+  }
+}

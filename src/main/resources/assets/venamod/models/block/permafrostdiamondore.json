@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "venamod:blocks/permafrost_diamond_ore",
+    "up": "venamod:blocks/permafrost_diamond_ore",
+    "north": "venamod:blocks/permafrost_diamond_ore",
+    "east": "venamod:blocks/permafrost_diamond_ore",
+    "south": "venamod:blocks/permafrost_diamond_ore",
+    "west": "venamod:blocks/permafrost_diamond_ore",
+    "particle": "venamod:blocks/permafrost_diamond_ore"
+  }
+}

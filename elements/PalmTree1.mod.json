@@ -1,0 +1,28 @@
+{
+  "_fv": 5,
+  "_type": "structure",
+  "definition": {
+    "structure": "palm_tree_1",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 200000,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 2,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.GRASS"
+      },
+      {
+        "value": "Blocks.SAND#0"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:DesertOasis"
+      }
+    ]
+  }
+}

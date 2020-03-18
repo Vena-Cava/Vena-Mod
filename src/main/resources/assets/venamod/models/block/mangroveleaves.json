@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "venamod:blocks/mangrove_leaves",
+    "up": "venamod:blocks/mangrove_leaves",
+    "north": "venamod:blocks/mangrove_leaves",
+    "east": "venamod:blocks/mangrove_leaves",
+    "south": "venamod:blocks/mangrove_leaves",
+    "west": "venamod:blocks/mangrove_leaves",
+    "particle": "venamod:blocks/mangrove_leaves"
+  }
+}

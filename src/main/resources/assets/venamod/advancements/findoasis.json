@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "venamod:coconut"
+    },
+    "title": {
+      "translate": "advancements.findoasis.title"
+    },
+    "description": {
+      "translate": "advancements.findoasis.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "findoasis": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "venamod:desertoasis"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "minecraft:adventure/adventuring_time"
+}

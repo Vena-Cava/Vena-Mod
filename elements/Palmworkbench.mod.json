@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "Blocks.CRAFTING_TABLE"
+    },
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Palmplanks"
+      },
+      {
+        "value": "CUSTOM:Palmplanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Palmplanks"
+      },
+      {
+        "value": "CUSTOM:Palmplanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "palmworkbench",
+    "namespace": "mod"
+  }
+}

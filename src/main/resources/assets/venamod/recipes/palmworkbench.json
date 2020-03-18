@@ -1,0 +1,26 @@
+{
+  "group": "venamod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "venamod:palmplanks"
+    },
+    "1": {
+      "item": "venamod:palmplanks"
+    },
+    "2": {
+      "item": "venamod:palmplanks"
+    },
+    "3": {
+      "item": "venamod:palmplanks"
+    }
+  },
+  "result": {
+    "item": "minecraft:crafting_table",
+    "count": 1
+  }
+}

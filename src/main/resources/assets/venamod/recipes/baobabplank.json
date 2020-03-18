@@ -1,0 +1,13 @@
+{
+  "group": "venamod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "venamod:baobabwood"
+    }
+  ],
+  "result": {
+    "item": "venamod:baobabplanks",
+    "count": 4
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 5,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "cattail",
+    "customModelName": "Cross model",
+    "plantType": "growapable",
+    "growapableSpawnType": "Beach",
+    "growapableMaxHeight": 2,
+    "name": "Cattail",
+    "creativeTab": {
+      "value": "DECORATIONS"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "WET_GRASS"
+    },
+    "customDrop": {
+      "value": "CUSTOM:Cattailstalk"
+    },
+    "dropAmount": 1,
+    "isReplaceable": false,
+    "isFlammable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "frequencyOnChunks": 40,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:WetSavanna"
+      },
+      {
+        "value": "CUSTOM:DarkSwamp"
+      }
+    ],
+    "onDestroyedByPlayer": {
+      "name": "Cattaildrophead"
+    }
+  }
+}

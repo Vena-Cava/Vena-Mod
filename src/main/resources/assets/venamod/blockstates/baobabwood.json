@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "venamod:baobabwood"
+    },
+    "facing=south": {
+      "model": "venamod:baobabwood"
+    },
+    "facing=north": {
+      "model": "venamod:baobabwood"
+    },
+    "facing=east": {
+      "model": "venamod:baobabwood",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "venamod:baobabwood",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "venamod:baobabwood",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "venamod:baobabwood",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

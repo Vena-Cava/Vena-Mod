@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "venamod:blocks/palm_log_top",
+    "up": "venamod:blocks/palm_log_top",
+    "north": "venamod:blocks/palm_log",
+    "east": "venamod:blocks/palm_log",
+    "south": "venamod:blocks/palm_log",
+    "west": "venamod:blocks/palm_log",
+    "particle": "venamod:blocks/palm_log_top"
+  }
+}

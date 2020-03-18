@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "venamod:palmstem"
+    },
+    "facing=south": {
+      "model": "venamod:palmstem"
+    },
+    "facing=north": {
+      "model": "venamod:palmstem"
+    },
+    "facing=east": {
+      "model": "venamod:palmstem",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "venamod:palmstem",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "venamod:palmstem",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "venamod:palmstem",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

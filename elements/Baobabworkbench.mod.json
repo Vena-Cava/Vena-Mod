@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "Blocks.CRAFTING_TABLE"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Baobabplanks"
+      },
+      {
+        "value": "CUSTOM:Baobabplanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Baobabplanks"
+      },
+      {
+        "value": "CUSTOM:Baobabplanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "baobabworkbench",
+    "namespace": "mod"
+  }
+}

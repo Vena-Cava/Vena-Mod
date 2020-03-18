@@ -1,0 +1,31 @@
+{
+  "_fv": 5,
+  "_type": "structure",
+  "definition": {
+    "structure": "mangrove_tree_1",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 1000000,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": -1,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.GRASS"
+      },
+      {
+        "value": "Blocks.DIRT#0"
+      },
+      {
+        "value": "Blocks.WATER"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:DarkSwamp"
+      }
+    ]
+  }
+}

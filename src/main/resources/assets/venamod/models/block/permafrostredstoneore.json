@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "venamod:blocks/permafrost_redstone_ore",
+    "up": "venamod:blocks/permafrost_redstone_ore",
+    "north": "venamod:blocks/permafrost_redstone_ore",
+    "east": "venamod:blocks/permafrost_redstone_ore",
+    "south": "venamod:blocks/permafrost_redstone_ore",
+    "west": "venamod:blocks/permafrost_redstone_ore",
+    "particle": "venamod:blocks/permafrost_redstone_ore"
+  }
+}

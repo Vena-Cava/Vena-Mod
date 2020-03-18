@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "venamod:blocks/baobab_leaves",
+    "up": "venamod:blocks/baobab_leaves",
+    "north": "venamod:blocks/baobab_leaves",
+    "east": "venamod:blocks/baobab_leaves",
+    "south": "venamod:blocks/baobab_leaves",
+    "west": "venamod:blocks/baobab_leaves",
+    "particle": "venamod:blocks/baobab_leaves"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "venamod:blocks/strawberries_stage4",
+    "particle": "venamod:blocks/strawberries_stage4"
+  }
+}
