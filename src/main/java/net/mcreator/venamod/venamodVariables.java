@@ -14,6 +14,7 @@ import net.minecraft.client.Minecraft;
 public class venamodVariables {
 	public static class MapVariables extends WorldSavedData {
 		public static final String DATA_NAME = "venamod_mapvars";
+		public double Heat = 10;
 
 		public MapVariables() {
 			super(DATA_NAME);
@@ -25,10 +26,12 @@ public class venamodVariables {
 
 		@Override
 		public void readFromNBT(NBTTagCompound nbt) {
+			Heat = nbt.getDouble("Heat");
 		}
 
 		@Override
 		public NBTTagCompound writeToNBT(NBTTagCompound nbt) {
+			nbt.setDouble("Heat", Heat);
 			return nbt;
 		}
 

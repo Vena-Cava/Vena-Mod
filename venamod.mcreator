@@ -592,9 +592,104 @@
           }
         ]
       }
+    },
+    {
+      "name": "SnowflakeBar",
+      "type": "overlay",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Snowflake_Point1",
+      "type": "overlay",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Snowflake_Point2",
+      "type": "overlay",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Snowflake_Point3",
+      "type": "overlay",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Snowflake_Point4",
+      "type": "overlay",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Snowflake_Point5",
+      "type": "overlay",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Snowflake_Point6",
+      "type": "overlay",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Snowflake_Point7",
+      "type": "overlay",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Snowflake_Point8",
+      "type": "overlay",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Snowflake_Point9",
+      "type": "overlay",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Snowflake_Point10",
+      "type": "overlay",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "Heat",
+      "type": "number",
+      "scope": "map",
+      "value": "10"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
