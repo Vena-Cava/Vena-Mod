@@ -1,5 +1,7 @@
 {
-  "id_map": {},
+  "id_map": {
+    "DIMENSION": 1
+  },
   "mod_elements": [
     {
       "name": "Baobabwood",
@@ -532,14 +534,72 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Jolin",
+      "type": "dimension",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "1": 1
+      }
+    },
+    {
+      "name": "CandyCane",
+      "type": "food",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Antifreeze",
+      "type": "fluid",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AntifreezeMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AntifreezeKill",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "tile.palmleaves.name": "Palmleaves",
       "tile.baobabplanks.name": "Baobab Planks",
+      "tile.palmleaves.name": "Palmleaves",
       "item.coconutshell.name": "Coconut Shell",
       "tile.mangrovewood.name": "Mangrove Wood",
       "tile.mangroveplanks.name": "Mangrove Planks",
@@ -551,10 +611,13 @@
       "tile.baobableaves.name": "Baobab Leaves",
       "tile.strawberrybush.name": "Strawberry Bush",
       "item.salt.name": "Salt",
+      "item.jolin.name": "Frostifier",
       "fluid.quicksand": "Quicksand",
       "tile.baobabwood.name": "Baobab Wood",
+      "item.candycane.name": "Candy Cane",
       "item.cattailhead.name": "Cattail Head",
       "tile.baobabsapling.name": "Baobabsapling",
+      "fluid.antifreeze": "Antifreeze",
       "advancements.findoasis.descr": "Discover a Desert Oasis Biome",
       "tile.palmstem.name": "Palm Stem",
       "item.cattailstalk.name": "Cattail Stalk",

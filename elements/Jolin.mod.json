@@ -1,0 +1,66 @@
+{
+  "_fv": 5,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "Blocks.SNOW"
+    },
+    "portalParticles": {
+      "value": "SNOWBALL"
+    },
+    "portalLuminance": 0.0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Frostifier",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "salt",
+    "portalTexture": "jolin_portal",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:JolinPlains"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Permafrost"
+    },
+    "secondaryFillerBlock": {
+      "value": "Blocks.SNOW"
+    },
+    "tertiaryFillerBlock": {
+      "value": "Blocks.SNOW_LAYER"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Antifreeze"
+    },
+    "airColor": {
+      "value": -4138753,
+      "frgbvalue": [
+        0.753,
+        0.847,
+        1.0
+      ],
+      "fvalue": [
+        0.753,
+        0.847,
+        1.0
+      ],
+      "falpha": 1.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "hasWeather": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "dimensionMusic": {
+      "value": "music.end"
+    }
+  }
+}

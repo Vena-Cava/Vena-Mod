@@ -70,12 +70,18 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "CUSTOM:Jolin"
+    ],
     "restrictionBiomes": [],
-    "blocksToReplace": [],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:Permafrost"
+      }
+    ],
+    "frequencyPerChunks": 20,
+    "frequencyOnChunk": 17,
+    "minGenerateHeight": 5,
     "maxGenerateHeight": 64
   }
 }

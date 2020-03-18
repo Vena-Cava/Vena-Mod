@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "venamod:jolin_portal_ew"
+    },
+    "axis=x": {
+      "model": "venamod:jolin_portal_ns"
+    },
+    "inventory": {
+      "model": "venamod:jolin_portal_ns"
+    }
+  }
+}

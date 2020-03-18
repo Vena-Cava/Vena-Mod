@@ -1,0 +1,24 @@
+{
+  "_fv": 5,
+  "_type": "fluid",
+  "definition": {
+    "name": "Antifreeze",
+    "textureStill": "antifreeze_still",
+    "textureFlowing": "antifreeze_flow",
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "spawnWorldTypes": [
+      "CUSTOM:Jolin"
+    ],
+    "onEntityCollides": {
+      "name": "AntifreezeMobplayerCollidesBlock"
+    }
+  }
+}
