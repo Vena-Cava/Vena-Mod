@@ -61,6 +61,9 @@
     "imitateOverworldBehaviour": false,
     "dimensionMusic": {
       "value": "music.end"
+    },
+    "onPlayerLeavesDimension": {
+      "name": "JolinPlayerLeavesDimension"
     }
   }
 }

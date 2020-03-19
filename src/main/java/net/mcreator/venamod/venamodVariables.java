@@ -12,9 +12,13 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.client.Minecraft;
 
 public class venamodVariables {
+	public static boolean Player_Dead = false;
+
 	public static class MapVariables extends WorldSavedData {
 		public static final String DATA_NAME = "venamod_mapvars";
 		public double Heat = 10;
+		public boolean Insulated = false;
+		public boolean Antifreeze = false;
 
 		public MapVariables() {
 			super(DATA_NAME);
@@ -27,11 +31,15 @@ public class venamodVariables {
 		@Override
 		public void readFromNBT(NBTTagCompound nbt) {
 			Heat = nbt.getDouble("Heat");
+			Insulated = nbt.getBoolean("Insulated");
+			Antifreeze = nbt.getBoolean("Antifreeze");
 		}
 
 		@Override
 		public NBTTagCompound writeToNBT(NBTTagCompound nbt) {
 			nbt.setDouble("Heat", Heat);
+			nbt.setBoolean("Insulated", Insulated);
+			nbt.setBoolean("Antifreeze", Antifreeze);
 			return nbt;
 		}
 
@@ -56,6 +64,7 @@ public class venamodVariables {
 
 	public static class WorldVariables extends WorldSavedData {
 		public static final String DATA_NAME = "venamod_worldvars";
+		public double TickCount = 0;
 
 		public WorldVariables() {
 			super(DATA_NAME);
@@ -67,10 +76,12 @@ public class venamodVariables {
 
 		@Override
 		public void readFromNBT(NBTTagCompound nbt) {
+			TickCount = nbt.getDouble("TickCount");
 		}
 
 		@Override
 		public NBTTagCompound writeToNBT(NBTTagCompound nbt) {
+			nbt.setDouble("TickCount", TickCount);
 			return nbt;
 		}
 

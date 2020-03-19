@@ -178,6 +178,18 @@ public class MCreatorJolin extends Elementsvenamod.ModElement {
 		public boolean doesWaterVaporize() {
 			return false;
 		}
+
+		@Override
+		public void onPlayerRemoved(EntityPlayerMP entity) {
+			int x = (int) entity.posX;
+			int y = (int) entity.posY;
+			int z = (int) entity.posZ;
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("world", world);
+				MCreatorJolinPlayerLeavesDimension.executeProcedure($_dependencies);
+			}
+		}
 	}
 
 	public static class TeleporterDimensionMod extends Teleporter {

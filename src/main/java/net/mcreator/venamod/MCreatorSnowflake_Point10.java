@@ -39,7 +39,7 @@ public class MCreatorSnowflake_Point10 extends Elementsvenamod.ModElement {
 				int z = (int) entity.posZ;
 				if (((((entity.dimension) == (MCreatorJolin.DIMID)) && (!((entity instanceof EntityPlayer)
 						? ((EntityPlayer) entity).capabilities.isCreativeMode
-						: false))) && ((venamodVariables.MapVariables.get(world).Heat) >= 90))) {
+						: false))) && ((venamodVariables.MapVariables.get(world).Heat) >= 10))) {
 					Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation("venamod:textures/snowflake.png"));
 					Minecraft.getMinecraft().ingameGUI.drawTexturedModalRect(posX + 11, posY + 70, 0, 0, 256, 256);
 				}
