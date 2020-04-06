@@ -1020,10 +1020,9 @@
   },
   "workspaceSettings": {
     "modid": "venamod",
-    "modName": "VenaMod",
-    "version": "1.0.0",
-    "author": "Jake",
-    "websiteURL": "https://mcreator.net",
+    "modName": "Vena\u0027s Environmentals",
+    "version": "0.1.0",
+    "author": "Vena",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -1031,6 +1030,8 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "1.12.2",
+    "credits": "Made by Vena Cava",
+    "modElementsPackage": "net.mcreator.venamod",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202000214217
