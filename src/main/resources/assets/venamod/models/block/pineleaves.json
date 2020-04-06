@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "venamod:blocks/pine_leaves",
+    "up": "venamod:blocks/pine_leaves",
+    "north": "venamod:blocks/pine_leaves",
+    "east": "venamod:blocks/pine_leaves",
+    "south": "venamod:blocks/pine_leaves",
+    "west": "venamod:blocks/pine_leaves",
+    "particle": "venamod:blocks/pine_leaves"
+  }
+}

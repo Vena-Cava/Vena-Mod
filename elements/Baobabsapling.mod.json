@@ -1,5 +1,5 @@
 {
-  "_fv": 5,
+  "_fv": 6,
   "_type": "block",
   "definition": {
     "texture": "baobab_sapling",
@@ -43,19 +43,24 @@
       "value": "PLANTS"
     },
     "tickRate": 1000,
+    "tickRandomly": false,
     "isReplaceable": false,
-    "isFlammable": false,
     "colorOnMap": "FOLIAGE",
     "creativePickItem": {
       "value": ""
     },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "reactionToPushing": "NORMAL",
     "isNotColidable": true,
     "soundOnStep": {
       "value": "PLANT"
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 0,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -65,6 +70,8 @@
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
     "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
@@ -72,9 +79,6 @@
     "inventoryOutSlotIDs": [],
     "onRightClicked": {
       "name": "BaobabsaplingBonemeal"
-    },
-    "onRandomUpdateEvent": {
-      "name": "BaobabSaplingGrow"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

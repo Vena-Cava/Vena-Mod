@@ -1,5 +1,5 @@
 {
-  "_fv": 5,
+  "_fv": 6,
   "_type": "food",
   "definition": {
     "renderType": 0,
@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Candy Cane",
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:JolinTab"
     },
     "stackSize": 64,
     "nutritionalValue": 2,

@@ -1,5 +1,5 @@
 {
-  "_fv": 5,
+  "_fv": 6,
   "_type": "biome",
   "definition": {
     "name": "Dark Swamp",
@@ -51,7 +51,7 @@
     "deadBushesPerChunk": 0,
     "rainingPossibility": 0.5,
     "temperature": 0.8,
-    "baseHeight": -0.5,
+    "baseHeight": -0.19999999999999998,
     "heightVariation": 0.0,
     "spawnBiome": true,
     "biomeWeight": 10,

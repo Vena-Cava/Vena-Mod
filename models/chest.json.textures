@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "missing": "pine_chest"
+      },
+      "name": "default"
+    }
+  }
+}

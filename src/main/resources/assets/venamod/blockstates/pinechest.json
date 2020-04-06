@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "venamod:pinechest"
+    },
+    "facing=north": {
+      "model": "venamod:pinechest"
+    },
+    "facing=east": {
+      "model": "venamod:pinechest",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "venamod:pinechest",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "venamod:pinechest",
+      "y": 270
+    }
+  }
+}

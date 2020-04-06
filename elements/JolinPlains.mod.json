@@ -1,5 +1,5 @@
 {
-  "_fv": 5,
+  "_fv": 6,
   "_type": "biome",
   "definition": {
     "name": "Jolin Plains",
@@ -32,11 +32,11 @@
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -6815745,
+      "value": -16758016,
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -9718785,
+      "value": -16759158,
       "falpha": 0.0
     },
     "treesPerChunk": 0,
@@ -51,10 +51,10 @@
     "deadBushesPerChunk": 0,
     "rainingPossibility": 1.0,
     "temperature": -1.0,
-    "baseHeight": 0.1,
-    "heightVariation": 0.2,
+    "baseHeight": 0.01,
+    "heightVariation": 0.0,
     "spawnBiome": true,
-    "biomeWeight": 100,
+    "biomeWeight": 10,
     "biomeType": "ICY",
     "biomeCategory": "ICY",
     "parent": {

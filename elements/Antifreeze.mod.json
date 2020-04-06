@@ -1,5 +1,5 @@
 {
-  "_fv": 5,
+  "_fv": 6,
   "_type": "fluid",
   "definition": {
     "name": "Antifreeze",
@@ -12,7 +12,7 @@
     "type": "WATER",
     "generateBucket": true,
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:JolinTab"
     },
     "spawnWorldTypes": [
       "CUSTOM:Jolin"
